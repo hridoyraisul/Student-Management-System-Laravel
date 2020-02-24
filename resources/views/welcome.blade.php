@@ -47,6 +47,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('contact') }}">Contact Info</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ URL::to('/fee') }}">Tution Fee</a>
+                </li>
             </ul>
         </div>
     </div>

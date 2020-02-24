@@ -27,3 +27,5 @@ Route::get('/search-student', 'SearchController@Search')->name('search');
 Route::post('/search-result', 'SearchController@Result')->name('searchresult');
 
 Route::get('/contact', 'Controller@Contact')->name('contact');
+
+Route::resource('/fee','FeeController');
